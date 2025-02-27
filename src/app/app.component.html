@@ -4,6 +4,88 @@
 <div class="container mt-5">
   <div class="row">
     <div class="col-12">
+
+<h1>table_one</h1>
+      <table class="table table-bordered bg-secondary">
+        <thead class="thead-bordere">
+          <tr>
+            <th>sr no</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>contact</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let person of persons; let i = index">
+            <td>{{i + 1}}</td>
+            <td>{{person.fname}}</td>
+            <td>{{person.lname}}</td>
+            <td>{{person.email}}</td>
+            <td>{{person.contact}}</td>
+            
+          </tr>
+        </tbody>
+
+      </table>
+      <h1>table_Three</h1>
+      <table class="table table-bordered bg-primary">
+        <thead class="thead-bordere">
+          <tr>
+            <th>sr no</th>
+            <th> Name</th>
+            <th>Salary</th>
+            <th>permanent</th>
+            <th>dateOfBirth</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let employee of employees; let i = index">
+            <td>{{i + 1}}</td>
+            <td>{{employee.name}}</td>
+            <td>{{employee.salary}}</td>
+            <td>{{employee.permanent}}</td>
+            <td>{{employee.dateOfBirth}}</td>
+            
+          </tr>
+        </tbody>
+
+      </table>
+
+      <h1>table_Two</h1>
+      <table class="table table-bordered bg-secondary">
+        <thead class="thead-bordere">
+          <tr>
+            <th>sr no</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>contact</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let student of students; let i = index">
+            <td>{{i + 1}}</td>
+            <td>{{student.fname}}</td>
+            <td>{{student.lname}}</td>
+            <td>{{student.email}}</td>
+            <td>{{student.contact}}</td>
+            
+          </tr>
+        </tbody>
+
+      </table>
+
+      
+
+
+
+
+
+
       <ul class="list-group p-4">
         <li 
         *ngFor="let skill of skills"

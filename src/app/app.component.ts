@@ -7,7 +7,7 @@ import { Employee, Iperson } from './shared/models/persons';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'tables!!!';
+  title = 'data binding!!!';
   skills : Array<string> =["JS","TS","Angular","Node"]
 subjects : Array<string> =["english","marathi","hindi","biology","chemistry"]
 animals : Array<string> =["Fox", "Lion", "Snake", "Tiger", "monkey", ];

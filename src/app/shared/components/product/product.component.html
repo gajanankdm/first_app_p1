@@ -1,0 +1,45 @@
+<p class="alert alert-info">
+
+    This is product
+     <strong> {{productName}}</strong> 
+     with id <strong>{{productId}}</strong>
+</p>
+
+<p class="alert alert-info">
+This is product 
+<strong [innerHTML]="productName"></strong>
+with id <strong [innerText]="productId"></strong>
+</p>
+
+<input 
+[value]="userName"
+type="text" class="form-control mb-2">
+
+
+
+
+
+
+
+
+
+<div class="card mb-5">
+<div class="card-header">
+    <h3>Product</h3>
+    <img [src]="productImg" alt="" class="w-100">
+</div>
+<button [disabled]="isDisable"
+class="btn btn-primary"> ADD PRODUCT</button>
+
+</div>
+
+
+
+<div class="card mb-5">
+<div class="card-header">
+    <h3>Product2</h3>
+    <img [src]="productImg1" alt="" class="w-100">
+</div>
+<button [disabled]="isDisable"
+class="btn btn-primary"> ADD PRODUCT</button>
+</div>

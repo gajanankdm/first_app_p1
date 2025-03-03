@@ -1,0 +1,14 @@
+<div class="mb-4">
+    <button 
+    [disabled]="protectCount >= 5"
+    (click)="onProAdd()"
+    class="btn btn-sm btn-info mr-3">Add Product</button>
+        
+<button 
+[disabled]="protectCount == 0"
+(click)="onProRemove()"
+class="btn btn-sm btn-danger">
+Remove Product
+</button>
+<p class="alert alert-warning"> {{ protectCount}} product count</p>
+</div>

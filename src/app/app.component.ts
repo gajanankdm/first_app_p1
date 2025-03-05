@@ -7,7 +7,7 @@ import { Employee, Iperson } from './shared/models/persons';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'viewchild Decorater!!!';
+  title = 'student Task!!!';
   skills : Array<string> =["JS","TS","Angular","Node"]
 subjects : Array<string> =["english","marathi","hindi","biology","chemistry"]
 animals : Array<string> =["Fox", "Lion", "Snake", "Tiger", "monkey", ];

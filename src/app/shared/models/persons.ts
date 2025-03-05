@@ -12,5 +12,3 @@ export interface Iperson {
         permanent:string;
         dateOfBirth:Date;
       }
-
-      
